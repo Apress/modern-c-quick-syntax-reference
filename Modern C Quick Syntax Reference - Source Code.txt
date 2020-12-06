@@ -304,7 +304,7 @@ int main(void) {
   strcat(s1, s2); /* s1 = "HelloWorld" */
 
   /* Copy s1 into s2 */
-  strcpy(s2, s1); /* s2 = "HelloWorld" */
+  strcpy(s2, s1); /* s2 = "Hello" */
 
   /* Compare s1 and s2 */
   result = strcmp(s1, s2); /* 0 (equal) */

@@ -1,8 +1,13 @@
 # Errata for *Book Title*
 
-On **page xx** [Summary of error]:
+On **page 37** [strcpy]:
  
-Details of error here. Highlight key pieces in **bold**.
+The code example for `strcpy` should show the result of the copy as `"Hello"` instead of `"HelloWorld"`.
+
+```
+/* Copy s1 into s2 */
+strcpy(s2, s1); /* s2 = "Hello" */
+```
 
 ***
 
